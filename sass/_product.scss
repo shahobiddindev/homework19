@@ -1,0 +1,129 @@
+.product {
+   padding-top: 25px;
+   padding-bottom: 90px;
+
+   &__container {
+      display: flex;
+      align-items: center;
+      gap: 33px;
+
+      .product__left {
+         h1 {
+            margin-bottom: 18px;
+            color: $second-color;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 60px;
+         }
+
+         p {
+            margin-bottom: 45px;
+            color: $second-color;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+         }
+
+         button {
+            padding: 15px 41px;
+            border: 1px solid #537b9a;
+            background-color: transparent;
+            border-radius: 4px;
+            color: $primary-color;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+
+            &:hover {
+               background-color: $primary-color;
+               color: aliceblue;
+            }
+         }
+
+      }
+
+      .product__right {
+         img {
+            width: 40px;
+         }
+      }
+   }
+}
+
+.product__container2 {
+   padding-top: 114px;
+
+   h2 {
+      color: $second-color;
+      text-align: center;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+   }
+
+   .product__card {
+      background-color: linear-gradient(180deg, #000000 0%, rgba(255, 255, 255, 0.00) 100%);
+      padding-top: 66px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .product__box {
+         width: 240px;
+         margin-bottom: 20px;
+
+         h3 {
+            margin-top: 30px;
+            margin-bottom: 13px;
+            color: $second-color;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+         }
+
+         p {
+            color: $second-color;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+         }
+      }
+   }
+}
+
+.product__container2__btn {
+   position: relative;
+   left: 450px;
+   margin-top: 75px;
+   padding: 15px 34px;
+   background-color: $primary-color;
+   border-radius: 4px;
+   color: #FFF;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+
+@media (max-width:1150px) {
+   .product__container {
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+
+   .product__left,
+   .product__right {
+      width: 100%;
+   }
+
+   .product__card {
+      position: relative;
+      left: 80px;
+   }
+}

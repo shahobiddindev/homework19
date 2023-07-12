@@ -1,0 +1,56 @@
+.pricing {
+   padding-top: 220px;
+
+   .pricing__container {
+      .easy {
+         h2 {
+            margin-bottom: 16px;
+            color: $second-color;
+            text-align: center;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+         }
+
+         p {
+            color: $second-color;
+            text-align: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px;
+         }
+
+         .easy__card {
+            margin-top: 32px;
+
+            .easy__parg {
+               display: flex;
+               justify-content: center;
+               gap: 178px;
+               margin-bottom: 24px;
+
+            }
+
+            .easy__titel {
+               display: flex;
+               justify-content: center;
+               gap: 191px;
+            }
+         }
+      }
+   }
+}
+
+.easy__box {
+   display: flex;
+   align-items: center;
+   gap: 16px;
+
+   b {
+      padding: 15px 25px;
+      border-radius: 26.5px;
+      background-color: rgb(222, 232, 232);
+   }
+}

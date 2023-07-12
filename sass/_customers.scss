@@ -1,0 +1,48 @@
+.customers {
+   padding-top: 169px;
+}
+
+.customers__one {
+   display: flex;
+   align-items: center;
+   gap: 120px;
+}
+
+.customers__left {
+   h2 {
+      margin-bottom: 23px;
+      color: $second-color;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+   }
+
+   b {
+      margin-bottom: 12px;
+      color: $second-color;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 26px;
+   }
+
+   p {
+      margin-bottom: 30px;
+      color: $second-color;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+   }
+}
+
+.customers__two {
+   padding-top: 150px;
+   display: flex;
+   flex-direction: row-reverse;
+}
+
+.customers__three {
+   padding-top: 150px;
+}
